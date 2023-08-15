@@ -84,7 +84,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: COBOD International
         sub_title: Robotics Engineer Student Assistant
         caption: Oct 2022 - Present
