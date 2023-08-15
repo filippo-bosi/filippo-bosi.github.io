@@ -6,17 +6,17 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Filippo Bosi
+title: Robotics Engineer
+email: filippo.bosi24@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: jekyllrb
@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -85,25 +85,63 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: COBOD International
+        sub_title: Robotics Engineer Student Assistant
+        caption: Oct 2022 - Present
+        link: https://cobod.com/
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Copenhagen, Denmark
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of role
+    content:
+      - layout: right
+        title: LIAM LAB
+        sub_title: PLC Programmer
+        caption: Feb 2021 - Oct 2021
+        link: https://www.liamlab.it/
+        quote: >
+          Bologna, Italy
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of role
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: KAIST - Korea Advanced Institute of Science and Technology
+        sub_title: Exchange program - Department of Mechanical Engineering
+        caption: Feb 2023 - Jun 2023
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Daejeon, South Korea
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
+    content:
+      - layout: top-right
+        title: DTU - Technical University of Denmark
+        sub_title: MSc Electrical Engineering - Automation and Robot Technology
+        caption: Feb 2022 - Present
+        quote: >
+          Lyngby, Denmark
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
+    content:
+      - layout: top-right
+        title: University of Bologna
+        sub_title: BSc (Double degree) Automation Engineering
+        caption: Sep 2018 - Oct 2021
+        quote: >
+          Bologna, Italy
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
+    content:
+      - layout: top-right
+        title: Tongji University
+        sub_title: BSc (Double degree) Control Theory and Control Engineering
+        caption: Aug 2019 - Feb 2020
+        quote: >
+          Shanghai, China
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -113,11 +151,11 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: filippo-bosi/filippo-bosi.github.io (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
