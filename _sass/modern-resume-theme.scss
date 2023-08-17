@@ -57,14 +57,13 @@
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
-
   .details {
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
     vertical-align: middle;
-
+    width: 475px;
     p {
       margin-bottom: 3px;
       font-size: 1.6rem;

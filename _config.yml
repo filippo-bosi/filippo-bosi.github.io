@@ -1,6 +1,6 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: https://github.com/filippo-bosi/filippo-bosi.github.io
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -16,142 +16,156 @@ email: filippo.bosi24@gmail.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  filippo-bosi
+linkedin_username: filippo-bosi
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+gtm: "GTM-PPLKDV8J"
+#gtag: "UA-00000000-0"
+#google_analytics: "UA-00000000-0"
 
-# About Section
-# about_title: About Me (Use this to override about section title)
+about_title: About Me
 about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_content: |
+  I am a Robotics Engineering student and innovation enthusiast.
+  My top 5 skills are:
+    - <mark>ROS/ROS2</mark>
+    - <mark>C++</mark>
+    - <mark>Gazebo</mark>
+    - <mark>RoboDK</mark>
+    - <mark>MATLAB&Simulink</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: COBOD International
+        title: <img title="COBOD" width="30" height="30" src="/images/logos/cobod_logo.png"> COBOD International
         sub_title: Robotics Engineer Student Assistant
-        caption: Oct 2022 - Present
+        caption: Oct 2022 - Present <br />
+          Copenhagen, Denmark 🇩🇰
         link: https://cobod.com/
         quote: >
-          Copenhagen, Denmark
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of role
-    content:
-      - layout: right
-        title: LIAM LAB
+          World leader in 3D construction printing solutions.
+        description: <mark>Skills</mark>  Robotics · RoboDK · Robot Operating System (ROS) · Ubuntu · C++ · Gazebo · GitHub
+      - layout: left
+        title: <img title="LIAM LAB" width="30" height="30" src="/images/logos/liam_lab_logo.jpg"> LIAM LAB
         sub_title: PLC Programmer
-        caption: Feb 2021 - Oct 2021
+        caption: Feb 2021 - Oct 2021 <br />
+          Bologna, Italy 🇮🇹
         link: https://www.liamlab.it/
         quote: >
-          Bologna, Italy
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of role
+          Industrial research laboratory for the automation of packaging machines.
+        description: |
+          <mark>Skills</mark> Automation · Beckhoff TWINCAT3 · PLC Programming · ISG-Virtuos · CoDeSys · IEC 61131-3
 
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: KAIST - Korea Advanced Institute of Science and Technology
-        sub_title: Exchange program - Department of Mechanical Engineering
-        caption: Feb 2023 - Jun 2023
-        quote: >
-          Daejeon, South Korea
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of qualification
-    content:
-      - layout: top-right
-        title: DTU - Technical University of Denmark
+      - layout: top-middle
+        title: <img title="DTU" width="30" height="30" src="/images/logos/dtu_logo.png"> DTU - Technical University of Denmark
         sub_title: MSc Electrical Engineering - Automation and Robot Technology
-        caption: Feb 2022 - Present
-        quote: >
-          Lyngby, Denmark
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of qualification
-    content:
-      - layout: top-right
-        title: University of Bologna
-        sub_title: BSc (Double degree) Automation Engineering
-        caption: Sep 2018 - Oct 2021
-        quote: >
-          Bologna, Italy
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of qualification
-    content:
-      - layout: top-right
-        title: Tongji University
-        sub_title: BSc (Double degree) Control Theory and Control Engineering
-        caption: Aug 2019 - Feb 2020
-        quote: >
-          Shanghai, China
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        caption: Feb 2022 - Present <br />
+          Lyngby, Denmark 🇩🇰
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top-middle
+        title: <img title="KAIST" width="30" height="30" src="/images/logos/kaist_logo.jpeg"> KAIST - Korea Advanced Institute of Science and Technology
+        sub_title: Exchange program - Department of Mechanical Engineering
+        caption: Feb 2023 - Jun 2023 <br />
+          Daejeon, South Korea 🇰🇷 <br />
+          <strong>Activities and societies:</strong> 투 Basketball team
+
+      - layout: top-middle
+        title: <img title="UniBo" width="30" height="30" src="/images/logos/unibo_logo.png"> University of Bologna
+        sub_title: BSc (Double degree) Automation Engineering
+        caption: Sep 2018 - Oct 2021 <br />
+          Bologna, Italy 🇮🇹          
+
+      - layout: top-middle
+        title: <img title="Tongji" width="30" height="30" src="/images/logos/tongji_logo.png"> Tongji University
+        sub_title: BSc (Double degree) Automation Engineering
+        caption: Aug 2019 - Feb 2020 <br />
+          Shanghai China 🇨🇳          
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Mapping and Navigation for a Robot Waiter
+        additional_links:
+          - title: Monte Carlo localization
+            icon: fab fa-google-drive
+            url: https://drive.google.com/file/d/1cBBfGeurg0WTaOKYNN7qK6yGzdvw7FjA/view
+          - title: Final report
+            icon: fas fa-file-pdf
+            url:  https://drive.google.com/file/d/1UIl7tiNhj9kDIb1ifatpipaPoLxsXANC/view
+
+        sub_title: <img src="/images/projects/nav2.png" alt="Mapping and Navigation">
+        quote: >
+          This project implements mapping and navigation algorithms for a simulated robot waiter in a coffee shop. 
+          It uses Probabilistic Roadmap (PRM) and Adaptive Monte Carlo Localization (AMCL) with the Robot Operating System (ROS) 
+          and Gazebo simulation. The TurtleBot3 robot, equipped with a laser distance sensor and camera module, is used for validation.
+          Mapping involves teleoperation and frontier-based exploration, generating binary occupancy maps in MATLAB. Localization is 
+          performed using a particle filter, and navigation includes evaluating ROS2 Nav2 and implementing a PRM planner in MATLAB.
+        description: | 
+          <mark>Skills</mark> Mobile Robotics · Robot Operating System (ROS) · ROS2 · Ubuntu · Gazebo · MATLAB
+        border: weak
+
+      - layout: left
+        title: Whole-body dynamics of a quadruped robot for simulation 
+        sub_title: <img src="/images/projects/aliengo.png" alt="Aliengo">
+        additional_links:
+          - title: GitHub repo
+            icon: fab fa-github
+            url: https://github.com/filippo-bosi/ME553_2023
+        quote: >
+          Using the Aliengo quadruped robot model, the goal was to compute different parameters with increasing difficulty.
+        description: |
+          - <strong>Exercise 1:</strong> position of the front-right foot given any joint angles.
+          - <strong>Exercise 2:</strong> linear and angular velocity of the front-right foot given any joint angles and joint velocities.
+          - <strong>Exercise 3:</strong> mass matrix of the system given the generalized coordinates using Composite Rigid Body Algorithm (CRBA).
+          - <strong>Exercise 4:</strong> nonlinearity of the system given the generalized coordinates and generalized velocities using the Recursive Newton-Euler Algorithm (RNEA).
+          - <strong>Exercise 5:</strong> generalized acceleration for the given generalized coordinate, velocity, and force using Articulated Body Algorithm (ABA).
+          <br />
+          <mark>Skills</mark> Robotics · Robot Dynamics · C++ · RaiSim · CMake · GitHub
+        border: weak
+
+      - layout: left
+        title: Sampling-based motion planning algorithms in Python
+        sub_title: <center><img src="https://drive.google.com/uc?export=view&id=1dOsIUqIaLRLlCcpyDmYNkjnXz-RlrTMI" width="60%" alt="RRT"></center>
+        quote: >
+          This was the main project of the course Robot Task and Motion Planning at KAIST.
+        description: |
+          It project was intended to make the students truly understand and appreciate why sampling-based motion planning algorithms
+          have become the dominant paradigm in robotics. The students were required to implement several sampling-based algorithms
+          and answer a series of questions that tested their understanding of motion planning algorithms.
+          <br />
+          <a href="https://docs.google.com/document/d/1iIMVnj3xY7iP46eMXmge3UJtcoLJc9_1y0XWvUjkjMI/view" target="_blank" class="item.link">
+          Final report
+          </a>
+          <br />
+          <mark>Skills</mark> Robotics · Motion Planning · Python
+        border: weak
+        
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | 
 
 # Footer
 footer_show_references: true
-references_title: References on request (Override references text)
+references_title: References on request
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
