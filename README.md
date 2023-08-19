@@ -1,4 +1,4 @@
-# modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/filippo-bosi/filippo-bosi.github.io/workflows/CI%20workflow/badge.svg?branch=master) [![Build Status](https://travis-ci.org/filippo-bosi/filippo-bosi.github.io.svg?branch=master)](https://travis-ci.org/filippo-bosi/filippo-bosi.github.io)
+# modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/filippo-bosi/filippo-bosi.github.io/workflows/CI%20workflow/badge.svg?branch=master)
 
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
 *Host your own resume on GitHub for **free!***
