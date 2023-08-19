@@ -62,7 +62,7 @@ content:
         description: <mark>Skills</mark>  Robotics · RoboDK · Robot Operating System (ROS) · Ubuntu · C++ · Gazebo · GitHub
       - layout: left
         title: <img title="LIAM LAB" width="30" height="30" src="/images/logos/liam_lab_logo.jpg"> LIAM LAB
-        sub_title: PLC Programmer
+        sub_title: PLC Programmer <br />(BSc Thesis)
         caption: Feb 2021 - Oct 2021 <br />
           Bologna, Italy 🇮🇹
         link: https://www.liamlab.it/
@@ -97,12 +97,14 @@ content:
         title: <img title="Tongji" width="30" height="30" src="/images/logos/tongji_logo.png"> Tongji University
         sub_title: BSc (Double degree) Automation Engineering
         caption: Aug 2019 - Feb 2020 <br />
-          Shanghai China 🇨🇳          
+          Shanghai China 🇨🇳
+        quote: >
+          Winner of the AlmaTong scholarship, awarded to 10 students for a one-year exchange program at Tongji University, Shanghai.
 
   - title: Projects
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Mapping and Navigation for a Robot Waiter
         additional_links:
           - title: Monte Carlo localization
@@ -112,24 +114,21 @@ content:
             icon: fas fa-file-pdf
             url:  https://drive.google.com/file/d/1UIl7tiNhj9kDIb1ifatpipaPoLxsXANC/view
 
-        sub_title: <img src="/images/projects/nav2.png" alt="Mapping and Navigation">
+        sub_title: <img src="https://drive.google.com/uc?export=view&id=1cBBfGeurg0WTaOKYNN7qK6yGzdvw7FjA" width="32%" alt="RRT">&nbsp;&nbsp;&nbsp;<img src="/images/projects/nav2.png" alt="Mapping and Navigation" width="50%">
         quote: >
-          This project implements mapping and navigation algorithms for a simulated robot waiter in a coffee shop. 
-          It uses Probabilistic Roadmap (PRM) and Adaptive Monte Carlo Localization (AMCL) with the Robot Operating System (ROS) 
-          and Gazebo simulation. The TurtleBot3 robot, equipped with a laser distance sensor and camera module, is used for validation.
+          This project implements mapping and navigation algorithms for a simulated robot waiter in a coffee shop environment.
+        description: | 
+          Here, Probabilistic Roadmap (PRM) and Adaptive Monte Carlo Localization (AMCL), along with the Robot Operating System (ROS) 
+          and Gazebo simulation, are used to solve the tasks. The TurtleBot3 robot, equipped with a laser distance sensor and camera module, is used for validation.
           Mapping involves teleoperation and frontier-based exploration, generating binary occupancy maps in MATLAB. Localization is 
           performed using a particle filter, and navigation includes evaluating ROS2 Nav2 and implementing a PRM planner in MATLAB.
-        description: | 
+          <br />
           <mark>Skills</mark> Mobile Robotics · Robot Operating System (ROS) · ROS2 · Ubuntu · Gazebo · MATLAB
         border: weak
 
-      - layout: left
+      - layout: top-middle
         title: Whole-body dynamics of a quadruped robot for simulation 
-        sub_title: <img src="/images/projects/aliengo.png" alt="Aliengo">
-        additional_links:
-          - title: GitHub repo
-            icon: fab fa-github
-            url: https://github.com/filippo-bosi/ME553_2023
+        sub_title: <img src="/images/projects/aliengo.png" alt="Aliengo" width="50%">
         quote: >
           Using the Aliengo quadruped robot model, the goal was to compute different parameters with increasing difficulty.
         description: |
@@ -140,23 +139,29 @@ content:
           - <strong>Exercise 5:</strong> generalized acceleration for the given generalized coordinate, velocity, and force using Articulated Body Algorithm (ABA).
           <br />
           <mark>Skills</mark> Robotics · Robot Dynamics · C++ · RaiSim · CMake · GitHub
+        additional_links:
+          - title: GitHub repo
+            icon: fab fa-github
+            url: https://github.com/filippo-bosi/ME553_2023
         border: weak
 
-      - layout: left
+      - layout: top-middle
         title: Sampling-based motion planning algorithms in Python
-        sub_title: <center><img src="https://drive.google.com/uc?export=view&id=1dOsIUqIaLRLlCcpyDmYNkjnXz-RlrTMI" width="60%" alt="RRT"></center>
+        sub_title: <img src="https://drive.google.com/uc?export=view&id=1Ugm9P0lDzkU5sWoZUj4w4Kbvps_e_cNO" width="20%" alt="RRT">&nbsp;&nbsp;&nbsp;<img src="https://drive.google.com/uc?export=view&id=14lm1dkBNIb7G6PGfRDbXj9jMlpHkUaxQ" width="20%" alt="RRT">&nbsp;&nbsp;&nbsp;<img src="https://drive.google.com/uc?export=view&id=1dOsIUqIaLRLlCcpyDmYNkjnXz-RlrTMI" width="20%" alt="RRT">
         quote: >
-          This was the main project of the course Robot Task and Motion Planning at KAIST.
-        description: |
-          It project was intended to make the students truly understand and appreciate why sampling-based motion planning algorithms
+          This was the main project of the course "Robot Task and Motion Planning" at KAIST.
+        description: It project was intended to make the students truly understand and appreciate why sampling-based motion planning algorithms
           have become the dominant paradigm in robotics. The students were required to implement several sampling-based algorithms
           and answer a series of questions that tested their understanding of motion planning algorithms.
-          <br />
-          <a href="https://docs.google.com/document/d/1iIMVnj3xY7iP46eMXmge3UJtcoLJc9_1y0XWvUjkjMI/view" target="_blank" class="item.link">
-          Final report
-          </a>
-          <br />
+          <br /><br />
           <mark>Skills</mark> Robotics · Motion Planning · Python
+        additional_links:
+          - title: GitHub repo
+            icon: fab fa-github
+            url: https://github.com/filippo-bosi/sampling-based-motion-planning
+          - title: Final report
+            icon: fas fa-file-word
+            url: https://docs.google.com/document/d/1iIMVnj3xY7iP46eMXmge3UJtcoLJc9_1y0XWvUjkjMI/view
         border: weak
         
   #- title: A Little More About Me
@@ -182,11 +187,6 @@ exclude : [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
   "lib/",
-  "scripts/",
   "docker-compose.yml",
   ]
