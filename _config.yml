@@ -59,7 +59,8 @@ content:
         link: https://cobod.com/
         quote: >
           World leader in 3D construction printing solutions.
-        description: <mark>Skills</mark>  Robotics · RoboDK · Robot Operating System (ROS) · Ubuntu · C++ · Gazebo · GitHub
+        description: |
+          <mark>Skills</mark>  Robotics · RoboDK · Robot Operating System (ROS) · Ubuntu · C++ · Gazebo · GitHub
       - layout: left
         title: <img title="LIAM LAB" width="30" height="30" src="/images/logos/liam_lab_logo.jpg"> LIAM LAB
         sub_title: PLC Programmer <br />(BSc Thesis)
@@ -69,7 +70,11 @@ content:
         quote: >
           Industrial research laboratory for the automation of packaging machines.
         description: |
-          <mark>Skills</mark> Automation · Beckhoff TWINCAT3 · PLC Programming · ISG-Virtuos · CoDeSys · IEC 61131-3
+          - Studied importance of virtual commissioning in Industry 4.0.
+          - Created algorithm for e-commerce product phasing and buffering in TwinCAT 3.
+          - Tested and debugged on packaging machine's digital twin with ISG-Virtuos.
+          <br />
+          <mark>Skills</mark> Automation · Beckhoff TWINCAT3 · PLC Programming · ISG-Virtuos · IEC 61131-3
 
   - title: Education
     layout: list
@@ -162,12 +167,37 @@ content:
           - title: Final report
             icon: fas fa-file-word
             url: https://docs.google.com/document/d/1iIMVnj3xY7iP46eMXmge3UJtcoLJc9_1y0XWvUjkjMI/view
-        border: weak
-        
-  #- title: A Little More About Me
-  #  layout: text
-  #  content: | 
 
+  - title: Certifications
+    layout: list
+    content:
+    - layout: left
+      title: <img title="ETH" width="30" height="30" src="/images/logos/eth_logo.jpg"> ETHx - edX
+      sub_title: |
+        <a href="https://courses.edx.org/courses/course-v1:ETHx+AMRx+1T2018/5b151c51e8bf47c29d97f8a12369df17/ target="_blank"><b>AMRx: Autonomous Mobile Robots</b></a>
+      caption: Jan 2022
+      link_text: Certification page
+      link: https://courses.edx.org/certificates/c3133303935c440abc8f19278e750823
+      quote: >
+        An online learning initiative of ETH Zürich
+      description:  The objective of this course is to provide the basic concepts and algorithms required to develop mobile robots that act
+       autonomously in complex environments. The main emphasis is put on mobile robot locomotion and kinematics, environment perception, 
+       probabilistic map based localization and mapping, and motion planning. The lectures and exercises of this course introduce several 
+       types of robots such as wheeled robots, legged robots and drones.
+    - layout: left
+      title: <img title="ETS" width="30" height="30" src="/images/logos/toefl_logo.jpg"> TOEFL iBT
+      sub_title: Score 102
+      caption: Mar 2021
+
+  - title: A Little More About Me
+    layout: text
+    content: | 
+      When I'm not in work mode, I'm all about the fun stuff! I'm a <mark>home automation</mark> geek, turning living spaces into smart havens. 
+      <mark>Robotics</mark> is my jam – building bots and watching them come to life is pure magic. <mark>Basketball</mark> courts and <mark>beach volleyball</mark>
+      pitches are my happy places, where teamwork and sunny vibes rule. These interests aren't just hobbies; they're the heart of who I am, bringing balance 
+      and excitement to every day.
+    
+  
 # Footer
 footer_show_references: true
 references_title: References on request
